@@ -1,0 +1,147 @@
+
+@import url("'https://fonts.googleapis.com/css2?family=Roboto&display=swap'");
+@import "_header";
+@import "_footer";
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+    @media (max-width: 1124px) {
+        max-width: 100%;
+    }
+    @media (max-width: 768px) {
+        max-width: 768px;
+    }
+    @media screen and (max-width: 375px) {
+        max-width: 375px;
+    }
+    @media (max-width: 320px) {
+        max-width: 320px;
+    }
+}
+
+
+
+
+.container {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+
+.search {
+    margin-top: 131px;
+    width: auto;
+    border-bottom: 1px solid #757575;
+
+    input {
+        border: none;
+        outline: none;
+        width: 962px;
+        color: #626262;
+        font-size: 16px;
+    }
+}
+
+.restaurants {
+    width: auto;
+    height: auto;
+    
+
+    h1 {
+        margin-top: 56px;
+        padding-left: 17px;
+        font-size: 22px;
+        font-weight: 400;
+        color: #1d1d1d;
+
+        @media (max-width: 768px) {
+            margin-left: 20px;
+        }
+    }
+
+    &__Card {
+        margin: 0;
+        text-align: left;
+        padding: 16px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        flex-basis: 30%;
+
+        @media (max-width: 320px) {
+            padding: 16px 0;
+        }
+    }
+    
+    &__links {
+        width: 30%;
+        
+        @media (max-width: 768px) {
+            width: 50%;
+        }
+        
+        @media (max-width: 320px) {
+            width: 100%;
+        }
+    }
+    
+    &__Link {
+        text-decoration: none;
+        margin: 0;
+    }
+
+    &__Cards {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+
+        @media (max-width: 768px) {
+            justify-content: flex-start;
+        }
+    }
+
+    &__Name {
+        font-size: 16px;
+        font-weight: 400;
+        color: #1d1d1d;
+        padding-top: 16px;
+        text-decoration: none;
+    }
+
+    &__Kitchen {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 4px 0 4px 0;
+        color: #626262;
+        text-decoration: none;
+    }
+
+    &__deliveryTime {
+        font-size: 13px;
+        font-weight: 400;
+        color: #1d1d1d;
+        text-decoration: none;
+    }
+}
+.arrow {
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+    @media (max-width: 768px) {
+        right: 35px;
+    }
+    @media (max-width: 375px) {
+        height: 64px;
+        width: 64px;
+    }
+
+    @media (max-width: 320px) {
+        height: 64px;
+        width: 64px;
+    }
+}
+

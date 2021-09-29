@@ -1,0 +1,478 @@
+@import url("'https://fonts.googleapis.com/css2?family=Roboto&display=swap'");
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+          box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  height: 72px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    max-width: 100%;
+  }
+}
+
+.header__logo {
+  margin: 0;
+}
+
+.header__right {
+  margin: 0;
+}
+
+.header__topMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 72px;
+  width: 1124px;
+  margin: 0 auto;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.header .button {
+  text-decoration: none;
+  padding: 14px 20px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1d1d1d;
+  background: white;
+  border: 1px solid #e0e0e0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header .basket {
+  margin: 0 0 0 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 320px) {
+  .header .basket {
+    display: none;
+  }
+}
+
+.footer {
+  background-color: #262626;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  padding: 0 80px;
+}
+
+@media (max-width: 375px) {
+  .footer {
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    max-width: 100%;
+  }
+}
+
+.footer .footerContainer {
+  width: 1124px;
+}
+
+.footer .logo {
+  padding-top: 56px;
+  padding-bottom: 40.31px;
+}
+
+.footer .social {
+  margin: -10px;
+  margin-left: 6px;
+}
+
+.footer__Navi {
+  padding: 32px 0 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 320px) {
+  .footer__Navi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__Navi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__Nav {
+    padding-bottom: 39px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__Nav {
+    padding-bottom: 39px;
+  }
+}
+
+.footer__Apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 375px) {
+  .footer__Apps {
+    padding: 24px 0;
+  }
+}
+
+.footer__Apps a {
+  padding: 0 20px;
+}
+
+@media (max-width: 375px) {
+  .footer__Apps a {
+    padding: 0 12px;
+  }
+}
+
+.footer__Policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__About p {
+  outline: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 23px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a :hover {
+  color: #49a144;
+}
+
+.footer .hashtag {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 27px;
+}
+
+.footer span {
+  color: #49a144;
+}
+
+.footer select {
+  margin: 0 0 22px 0;
+  color: #fff;
+  background-color: #3b3b3b;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 12px 128px 12px 48px;
+  border: none;
+  background-size: contain;
+  background-position: center;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.footer__Policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+@media (max-width: 375px) {
+  .footer__Policy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__Policy a {
+    padding: 15px 8px;
+  }
+}
+
+.footer__Policy p {
+  outline: none;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+* {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1124px) {
+  * {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    max-width: 375px;
+  }
+}
+
+@media (max-width: 320px) {
+  * {
+    max-width: 320px;
+  }
+}
+
+.container {
+  max-width: 1124px;
+  margin: 0 auto;
+}
+
+.search {
+  margin-top: 131px;
+  width: auto;
+  border-bottom: 1px solid #757575;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  width: 962px;
+  color: #626262;
+  font-size: 16px;
+}
+
+.restaurants {
+  width: auto;
+  height: auto;
+}
+
+.restaurants h1 {
+  margin-top: 56px;
+  padding-left: 17px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+
+@media (max-width: 768px) {
+  .restaurants h1 {
+    margin-left: 20px;
+  }
+}
+
+.restaurants__Card {
+  margin: 0;
+  text-align: left;
+  padding: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 30px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+@media (max-width: 320px) {
+  .restaurants__Card {
+    padding: 16px 0;
+  }
+}
+
+.restaurants__links {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .restaurants__links {
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .restaurants__links {
+    width: 100%;
+  }
+}
+
+.restaurants__Link {
+  text-decoration: none;
+  margin: 0;
+}
+
+.restaurants__Cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .restaurants__Cards {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+.restaurants__Name {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1d1d1d;
+  padding-top: 16px;
+  text-decoration: none;
+}
+
+.restaurants__Kitchen {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 0 4px 0;
+  color: #626262;
+  text-decoration: none;
+}
+
+.restaurants__deliveryTime {
+  font-size: 13px;
+  font-weight: 400;
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+}
+
+@media (max-width: 768px) {
+  .arrow {
+    right: 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  .arrow {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+@media (max-width: 320px) {
+  .arrow {
+    height: 64px;
+    width: 64px;
+  }
+}
